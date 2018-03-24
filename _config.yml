@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: pagerduty.api.streamdata.gallery
+title: Streamdata Gallery PagerDuty
+url: pagerduty.streamdata.gallery
 tag: PagerDuty
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: pagerduty
 github_branch: master
 collections:
