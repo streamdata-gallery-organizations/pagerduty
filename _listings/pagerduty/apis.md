@@ -5,10 +5,10 @@ description: See how PagerDuty Digital Operations Management Platform integrates
   data & human intelligence to improve visibility & agility across organizations.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
 x-kinRank: "8"
-x-alexaRank: "19574"
+x-alexaRank: "18918"
 tags: PagerDuty
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/pagerduty/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
@@ -16,7 +16,7 @@ apis:
   x-api-slug: pagerduty
   description: List people and integrations associated with a given team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{teamId}/people
   tags: ~
   properties:
@@ -28,7 +28,7 @@ apis:
   x-api-slug: pagerduty
   description: Returns customer's user by user GUID.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users/{user_guid} '
   tags: Users
   properties:
@@ -40,7 +40,7 @@ apis:
   x-api-slug: pagerduty
   description: Returns all customer's users.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -52,7 +52,7 @@ apis:
   x-api-slug: pagerduty
   description: Creates a new user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -64,7 +64,7 @@ apis:
   x-api-slug: pagerduty
   description: Updates a user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users '
   tags: Users
   properties:
@@ -76,7 +76,7 @@ apis:
   x-api-slug: pagerduty
   description: DELETE users user gu
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: 'https://///users/{user_guid} '
   tags: Users
   properties:
@@ -88,7 +88,7 @@ apis:
   x-api-slug: pagerduty
   description: REST API Reference.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///api_reference
   tags: APIs
   properties:
@@ -100,7 +100,7 @@ apis:
   x-api-slug: pagerduty
   description: List all of your account's abilities, by name.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///abilities
   tags: Abilities
   properties:
@@ -112,7 +112,7 @@ apis:
   x-api-slug: pagerduty
   description: Test whether your account has a given ability.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///abilities/{id}
   tags: Abilities
   properties:
@@ -124,7 +124,7 @@ apis:
   x-api-slug: pagerduty
   description: List all of the add-ons installed on your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons
   tags: AddOns
   properties:
@@ -136,7 +136,7 @@ apis:
   x-api-slug: pagerduty
   description: Install an add-on for your account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons
   tags: AddOns
   properties:
@@ -146,7 +146,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -156,7 +156,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -166,7 +166,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing add-on.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///addons/{id}
   tags: AddOns
   properties:
@@ -176,7 +176,7 @@ apis:
   x-api-slug: pagerduty
   description: List all of the existing escalation policies.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///escalation_policies
   tags: Escalation Policies
   properties:
@@ -187,7 +187,7 @@ apis:
   description: Creates a new escalation policy. There must be at least one existing
     escalation rule added to create a new escalation policy.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///escalation_policies
   tags: Escalation Policies
   properties:
@@ -197,7 +197,7 @@ apis:
   x-api-slug: pagerduty
   description: Get information about an existing escalation policy and its rules.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///escalation_policies/{id}
   tags: Escalation Policies
   properties:
@@ -208,7 +208,7 @@ apis:
   description: Deletes an existing escalation policy and rules. The escalation policy
     must not be in use by any services.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///escalation_policies/{id}
   tags: Escalation Policies
   properties:
@@ -218,7 +218,7 @@ apis:
   x-api-slug: pagerduty
   description: Updates an existing escalation policy and rules.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///escalation_policies/{id}
   tags: Escalation Policies
   properties:
@@ -228,7 +228,7 @@ apis:
   x-api-slug: pagerduty
   description: List existing incidents.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents
   tags: Incidents
   properties:
@@ -240,7 +240,7 @@ apis:
   x-api-slug: pagerduty
   description: Acknowledge, resolve, escalate or reassign one or more incidents.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents
   tags: Incidents
   properties:
@@ -251,7 +251,7 @@ apis:
   description: Show detailed information about an incident. Accepts either an incident
     id, or an incident number.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}
   tags: Incidents
   properties:
@@ -261,7 +261,7 @@ apis:
   x-api-slug: pagerduty
   description: Acknowledge, resolve, escalate or reassign an incident.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}
   tags: Incidents
   properties:
@@ -271,7 +271,7 @@ apis:
   x-api-slug: pagerduty
   description: List log entries for the specified incident.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}/log_entries
   tags: Incidents Log Entries
   properties:
@@ -281,7 +281,7 @@ apis:
   x-api-slug: pagerduty
   description: List existing notes for the specified incident.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}/notes
   tags: Incident Notes
   properties:
@@ -291,7 +291,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new note for the specified incident.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}/notes
   tags: Incident Notes
   properties:
@@ -301,7 +301,7 @@ apis:
   x-api-slug: pagerduty
   description: Post incents  snooze
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///incidents/{id}/snooze
   tags: Incident Snooze
   properties:
@@ -311,7 +311,7 @@ apis:
   x-api-slug: pagerduty
   description: List all of the incident log entries across the entire account.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///log_entries
   tags: Log Entries
   properties:
@@ -322,7 +322,7 @@ apis:
   description: Get details for a specific incident log entry. This method provides
     additional information you can use to get at raw event data.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///log_entries/{id}
   tags: Log Entries
   properties:
@@ -333,7 +333,7 @@ apis:
   description: List existing maintenance windows, optionally filtered by service and/or
     team, or whether they are from the past, present or future.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows
   tags: Maintenance Windows
   properties:
@@ -344,7 +344,7 @@ apis:
   description: Create a new maintenance window for the specified services. No new
     incidents will be created for a service that is in maintenance.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows
   tags: Maintenance Windows
   properties:
@@ -354,7 +354,7 @@ apis:
   x-api-slug: pagerduty
   description: Get an existing maintenance window.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -366,7 +366,7 @@ apis:
     it if it's currently on-going. If the maintenance window has already ended it
     cannot be deleted.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -376,7 +376,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing maintenance window.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///maintenance_windows/{id}
   tags: Maintenance Windows
   properties:
@@ -387,7 +387,7 @@ apis:
   description: List notifications for a given time range, optionally filtered by type
     (sms_notification, email_notification, phone_notification, or push_notification).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///notifications
   tags: Notifications
   properties:
@@ -397,7 +397,7 @@ apis:
   x-api-slug: pagerduty
   description: List the on-call entries during a given time range.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///oncalls
   tags: Oncalls
   properties:
@@ -407,7 +407,7 @@ apis:
   x-api-slug: pagerduty
   description: List existing services.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services
   tags: Services
   properties:
@@ -417,7 +417,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services
   tags: Services
   properties:
@@ -427,7 +427,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}
   tags: Services
   properties:
@@ -439,7 +439,7 @@ apis:
     be accessible from the web UI and new incidents won't be able to be created for
     this service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}
   tags: Services
   properties:
@@ -449,7 +449,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}
   tags: Services
   properties:
@@ -459,7 +459,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new integration belonging to a service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}/integrations
   tags: Service Integrations
   properties:
@@ -469,7 +469,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an integration belonging to a service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}/integrations/{integration_id}
   tags: Service Integrations
   properties:
@@ -479,7 +479,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an integration belonging to a service.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///services/{id}/integrations/{integration_id}
   tags: Service Integrations
   properties:
@@ -489,7 +489,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams
   tags: Teams
   properties:
@@ -500,7 +500,7 @@ apis:
   description: List teams of your PagerDuty account, optionally filtered by a search
     query.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams
   tags: Teams
   properties:
@@ -510,7 +510,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}
   tags: Teams
   properties:
@@ -520,7 +520,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove an existing team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}
   tags: Teams
   properties:
@@ -530,7 +530,7 @@ apis:
   x-api-slug: pagerduty
   description: Update an existing team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}
   tags: Teams
   properties:
@@ -540,7 +540,7 @@ apis:
   x-api-slug: pagerduty
   description: Delete teams  escalation policies escalation policy
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/escalation_policies/{escalation_policy_id}
   tags: Team Escalation Policies
   properties:
@@ -550,7 +550,7 @@ apis:
   x-api-slug: pagerduty
   description: Put teams  escalation policies escalation policy
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/escalation_policies/{escalation_policy_id}
   tags: Team Escalation Policies
   properties:
@@ -560,7 +560,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove a user from a team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/users/{user_id}
   tags: Team Users
   properties:
@@ -570,7 +570,7 @@ apis:
   x-api-slug: pagerduty
   description: Add a user to a team.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///teams/{id}/users/{user_id}
   tags: Team Users
   properties:
@@ -581,7 +581,7 @@ apis:
   description: List users of your PagerDuty account, optionally filtered by a search
     query.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users
   tags: Users
   properties:
@@ -592,7 +592,7 @@ apis:
   description: Create a new user. Note that you must also supply a `password` property
     to create a user--it will not be returned by any API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users
   tags: Users
   properties:
@@ -602,7 +602,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about an existing user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -612,7 +612,7 @@ apis:
   x-api-slug: pagerduty
   description: Remove an existing user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -623,7 +623,7 @@ apis:
   description: Update an existing user. Note that you may also supply a `password`
     property--it will not be returned by any API.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}
   tags: Users
   properties:
@@ -633,7 +633,7 @@ apis:
   x-api-slug: pagerduty
   description: List contact methods of your PagerDuty user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/contact_methods
   tags: User Contact Methods
   properties:
@@ -643,7 +643,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new contact method.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/contact_methods
   tags: User Contact Methods
   properties:
@@ -653,7 +653,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about a user's contact method.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/contact_methods/{contact_method_id}
   tags: User Contact Methods
   properties:
@@ -663,7 +663,7 @@ apis:
   x-api-slug: pagerduty
   description: Delete users  contact methods contact method
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/contact_methods/{contact_method_id}
   tags: User Contact Methods
   properties:
@@ -673,7 +673,7 @@ apis:
   x-api-slug: pagerduty
   description: Put users  contact methods contact method
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/contact_methods/{contact_method_id}
   tags: User Contact Methods
   properties:
@@ -683,7 +683,7 @@ apis:
   x-api-slug: pagerduty
   description: List notification rules of your PagerDuty user.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/notification_rules
   tags: User Notification Rules
   properties:
@@ -693,7 +693,7 @@ apis:
   x-api-slug: pagerduty
   description: Create a new notification rule.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/notification_rules
   tags: User Notification Rules
   properties:
@@ -703,7 +703,7 @@ apis:
   x-api-slug: pagerduty
   description: Get users  notification rules notification rule
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/notification_rules/{notification_rule_id}
   tags: User Notification Rules
   properties:
@@ -713,7 +713,7 @@ apis:
   x-api-slug: pagerduty
   description: Delete users  notification rules notification rule
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/notification_rules/{notification_rule_id}
   tags: User Notification Rules
   properties:
@@ -723,7 +723,7 @@ apis:
   x-api-slug: pagerduty
   description: Put users  notification rules notification rule
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/{id}/notification_rules/{notification_rule_id}
   tags: User Notification Rules
   properties:
@@ -733,7 +733,7 @@ apis:
   x-api-slug: pagerduty
   description: List all vendors.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///vendors
   tags: Vendors
   properties:
@@ -743,7 +743,7 @@ apis:
   x-api-slug: pagerduty
   description: Get details about one specific vendor.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///vendors/{id}
   tags: Vendors
   properties:
@@ -753,7 +753,7 @@ apis:
   x-api-slug: pagerduty
   description: inventory services
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///inventory/services
   tags: Services
   properties:
@@ -763,7 +763,7 @@ apis:
   x-api-slug: pagerduty
   description: inventory services service
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///inventory/services/serviceId
   tags: Services
   properties:
@@ -773,7 +773,7 @@ apis:
   x-api-slug: pagerduty
   description: inventory services groups token token
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///inventory/services/groups/?token=token
   tags: Services
   properties:
@@ -783,7 +783,7 @@ apis:
   x-api-slug: pagerduty
   description: Create recipients for your alert notifications
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///notifications/recipients
   tags: Metrics
   properties:
@@ -793,7 +793,7 @@ apis:
   x-api-slug: pagerduty
   description: users users user
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https://///users/users/userId
   tags: Users
   properties:
@@ -804,13 +804,15 @@ apis:
   description: See how PagerDuty Digital Operations Management Platform integrates
     machine data & human intelligence to improve visibility & agility across organizations.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com
+  humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: PagerDuty
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/pagerduty/master/_listings/pagerduty/openapi.md
 x-common:
+- type: x-website
+  url: http://www.pagerduty.com/
 - type: x-base
   url: https://acme.pagerduty.com/api/
 - type: x-blog
@@ -831,8 +833,12 @@ x-common:
   url: support@pagerduty.com
 - type: x-email
   url: legal@pagerduty.com
+- type: x-email
+  url: privacy@pagerduty.com
 - type: x-github
   url: https://github.com/PagerDuty
+- type: x-linkedin
+  url: https://www.linkedin.com/company/pagerduty
 - type: x-openapi-spec--authoritative
   url: https://api-reference.pagerduty.com/output.json
 - type: x-pricing
